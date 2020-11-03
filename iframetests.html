@@ -1,0 +1,15 @@
+<iframe id="myFrame" src="index.html" style="height:380px;width:100%"></iframe>
+
+<div id="bloglistshow">
+
+</div>
+
+
+<script>
+	var iframe = document.getElementById("myFrame");
+	var bloglists = iframe.contentWindow.document.getElementsByTagName("main");
+	var innerDoc = iframe.contentDocument || iframe.contentWindow.document;
+	console.log(innerDoc);
+	// document.getElementById("bloglistshow") = iframe.contentWindow.document.getElementsByTagName("main");
+
+</script>

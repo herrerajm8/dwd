@@ -4,23 +4,39 @@
 	<title>Dalaguete Water District</title>
 	<link rel="icon" href="img/logonobg.png">
 	<link rel="stylesheet" type="text/css" href="mystyle.css">
+	<!-- ONLINE -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  	<!-- OFFLINE -->
+  	<!-- <link rel="stylesheet" href="bootstrap.min.css">
+	<script src="jquery.min.js"></script>
+	<script src="bootstrap.min.js"></script>
+  	<script src="popper.min.js"></script> -->
+
 </head>
 <body>
-	<div class="webhead">
-		<img src="img/dwdbanner2.png" style="height: 85%;margin-left: 40%;">
+	
+	<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v8.0" nonce="fRImmHbn"></script>
+	
+	
+	<div class="webhead d-block">
+		<!-- <img src="img/waterbanndercropped.jpg" class="mx-auto d-block" style="width: 100%; ;position: absolute;z-index: -1"> -->
+		<img src="img/dwdbanner2.png" class="w-50 mx-auto d-block">
 	</div>
-	<nav class="container navbar bg-primary navbar-expand-sm sticky-top">
-		<div class="container container-fluid">
-			<div class="navbar-left navbar-header" style="width: 50%;">
-				<img src="img/logoround.png" style="width: 11%;">
+	<nav class="container navbar-light bg-primary navbar-expand-sm sticky-top" style="max-height: auto;">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+		   <span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="collapsibleNavbar">
+			<div class="container container-fluid">
+				<img src="img/logoround.png" style="width: 11%;" class="img-fluid">
 		      	<a class="navbar-brand text-white" href="#">Dalaguete Water District</a>
 		    </div>
-		      <ul class="nav navbar-nav navbar-right">
-		      	<li class="nav-item">
+		    <ul class="nav navbar-right container">
+			   	<li class="nav-item">
 		      		<a href="index.html"><button class="btn btn-active text-white">Home</button></a>
 		        </li>
 		      	<li class="nav-item">
@@ -32,7 +48,7 @@
 		      	<li class="nav-item">
 		      		<a href="contact.html"><button class="btn text-white">Contact Us</button></a>
 		      	</li>
-		      </ul>
+		    </ul>
 		</div>
 	</nav>
 
