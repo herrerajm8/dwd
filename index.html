@@ -5,10 +5,12 @@
 	<link rel="icon" href="img/logonobg.png">
 	<link rel="stylesheet" type="text/css" href="mystyle.css">
 	<!-- ONLINE -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   	<!-- OFFLINE -->
   	<!-- <link rel="stylesheet" href="bootstrap.min.css">
 	<script src="jquery.min.js"></script>
@@ -36,15 +38,20 @@
 		      	<a class="navbar-brand text-white" href="#">Dalaguete Water District</a>
 		    </div>
 		    <ul class="nav navbar-right container">
-			   	<li class="nav-item">
+			   	<li class="nav-item active">
 		      		<a href="index.html"><button class="btn btn-active text-white">Home</button></a>
 		        </li>
 		      	<li class="nav-item">
 		      		<a href="announcements.html"><button class="btn text-white">Announcements</button></a>
 		        </li>
-		      	<li class="nav-item">
-		      		<a href="about.html"><button class="btn text-white">About Us</button></a>
-		      	</li>
+		      	<li class="nav-item dropdown">
+			      <button class="nav-link dropdown-toggle btn text-white" href="#" id="navbardrop" data-toggle="dropdown">
+			        About Us
+			      </button>
+			      <div class="dropdown-menu">
+			        <a class="dropdown-item" href="dwdcd.html">Contract Drawings</a>
+			      </div>
+			    </li>
 		      	<li class="nav-item">
 		      		<a href="contact.html"><button class="btn text-white">Contact Us</button></a>
 		      	</li>
@@ -147,7 +154,7 @@
 					<ul class="list-group list-group-vertical" id="fbfeedid" style="width: 100%;">
 						<h5>Facebook:</h5>
 						<li class="list-group-item btn">
-							<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FDalaguete-Water-District-101894928394280%2F%3F_rdc%3D1%26_rdr&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=true&show_facepile=true&appId" height="410" ></iframe>
+							<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fdalaguetewaterdistrict6022%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
 						</li>
 						
 					</ul>
